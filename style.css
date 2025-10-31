@@ -1,0 +1,67 @@
+*
+.Box{ 
+        border: 30px black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        
+    }
+
+.Box-Content{
+    background: lightgray;
+    margin: 20px blue;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('images/rain.jpg'); /* Replace with your image path */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh; /* Ensure body takes full viewport height */
+  margin: 0;     /* Remove default margin */
+}
+#spawnBtn {
+    background: whitesmoke;
+    border: 2px solid grey;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.window {
+    position: absolute;
+    width: 280px;
+    border: 2px solid #000;
+    background: #c0c0c0;
+    box-shadow: 2px 2px 0 #fff inset, -2px -2px 0 #7f7f7f inset;
+}
+
+.titl-bar {
+    background: #000080;
+    color: white;
+    padding: 3px 6px;
+    cursor: move;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.tilt-bar button {
+    background: #c0c0c0;
+    border: 2px solid #7f7f7f;
+    font-size: 12px;
+    font-weight: bold;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.content {
+    padding: 12px;
+    font-size: 13px;
+}
+
